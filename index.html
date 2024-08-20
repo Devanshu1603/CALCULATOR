@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="calculator.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <div id='box1'>
+            <div className='text' id='text2'><h1>Calculator</h1></div>
+            <div className='text'><p>A simple and intuitive calculator application designed to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. The user-friendly interface ensures ease of use for quick calculations, while the underlying logic is optimized for accuracy and performance. Ideal for both everyday use and educational purposes.</p></div>
+            
+        </div>
+    <div id="main_box">
+        <div class="header"><h1>CALCULATOR <i id="logo" class="fas fa-calculator"></i></h1></div>
+        <input type="text" id="display" readonly>
+        <div class="button-row">
+            <button id="clear_all">AC</button>
+            <button id="backspace"><i class="fa-solid fa-circle-xmark"></i></button>
+            <button id="equals"><i class="fa-solid fa-equals"></i></button>
+            <button id="divide"><i class="fa-solid fa-divide"></i></button>
+        </div>
+        <div class="button-row">
+            <button id="seven">7</button>
+            <button id="eight">8</button>
+            <button id="nine">9</button>
+            <button id="multiply">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+        <div class="button-row">
+            <button id="four">4</button>
+            <button id="five">5</button>
+            <button id="six">6</button>
+            <button id="subtract"><i class="fa-solid fa-minus"></i></button>
+        </div>
+        <div class="button-row">
+            <button id="one">1</button>
+            <button id="two">2</button>
+            <button id="three">3</button>
+            <button id="add"><i class="fa-solid fa-plus"></i></button>
+        </div>
+        <div class="button-row">
+            <button id="decimal">.</button>
+            <button id="zero">0</button>
+            <button id="sqrt"><i class="fa-solid fa-square-root-variable"></i></button>
+            <button id="log">ln</button>
+
+        </div>
+    </div>
+</div>
+    <script src="calculator.js"></script>
+</body>
+
+</html>
